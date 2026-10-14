@@ -1,0 +1,621 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    background: #CDAF83;
+}
+
+@font-face {
+    font-family: Amontesa;
+    src: url(../fonts/Amontesa.otf);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    font-family: Amontesa;
+}
+
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.web-btn {
+    background: #CDAF83;
+    padding: 6px 20px;
+    border-radius: 0;
+    font-family: 'Amontesa';
+    text-transform: lowercase;
+    color: #010E17;
+    font-size: 20px;
+    font-weight: 500;
+    box-shadow: 5px 5px 0px 0px rgba(225.00000000000003, 217.00000000000003, 198.00000000000003, 0.25);
+}
+
+/* header css start */
+
+header {
+    background-color: #010E17;
+    padding: 5px 0px;
+}
+
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px;
+    border-bottom: 1px solid #CDAF83;
+}
+
+.top-header h3 {
+    color: #CDAF83;
+    font-size: 35px;
+}
+
+.top-header a {
+    color: #CDAF83;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+.top-header a i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.navbar {
+    padding: 8px 100px;
+}
+
+.navbar-nav li a {
+    padding: 8px 20px;
+    color: #CDAF83 !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.navbar-nav li a.active {
+    border-bottom: 2px solid #CDAF83;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+/* header css end */
+
+/* banner css start */
+
+.banner {
+    background: #E1D9C6;
+}
+
+.banner-back {
+    margin: 100px;
+    background: #010E17;
+    padding: 0px 40px;
+}
+
+.banner-content h4 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #CDAF83;
+}
+
+.banner-content h1 {
+    margin: 20px 0;
+    color: #CDAF83;
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.banner-content p {
+    color: #CDAF83;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.btn-grid {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.author-frame {
+    padding: 50px 50px 30px 50px;
+    position: relative;
+    z-index: 0;
+    text-align: center;
+    background: #CDAF83;
+    width: 68%;
+    transform: rotate(-10deg);
+    margin-left: auto;
+    margin-right: 150px;
+}
+
+.author-frame .pin-frame {
+    position: absolute;
+    z-index: 0;
+    top: -80px;
+    right: 35%;
+    width: 15%;
+    transform: rotate(5deg);
+}
+
+.author-frame h4 {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Poppins", Sans-serif;
+    color: #010E17;
+}
+
+.author-frame h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: #2D3333;
+    margin-top: 5px;
+}
+
+/* banner css end */
+
+/* about-author css start */
+
+.about-author {
+    padding: 50px 0;
+}
+
+.author-img {
+    text-align: end;
+
+}
+
+.author-img img {
+    width: 76%;
+    height: 100%;
+    -webkit-mask-image: url(../images/author-back-frame.webp);
+    -webkit-mask-size: cover;
+    -webkit-mask-position: center center;
+}
+
+
+.author-info h4 {
+    font-size: 23px;
+    font-weight: 500;
+    line-height: 40px;
+    color: #2D3333;
+}
+
+.author-info h2 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #2D3333;
+    margin-top: 10px;
+}
+
+.author-info p {
+    color: #010E17;
+    margin: 15px 0;
+    width: 75%;
+    text-align: justify;
+    font-weight: 400;
+}
+
+.web-btn-blk {
+    background: #000000;
+    color: #CDAF83;
+}
+
+/* about-author css end */
+
+/* purpose-behind css start */
+
+.purpose-behind {
+    padding: 50px 0;
+    margin: 30px 0;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+
+.voice-value {
+    text-align: center;
+}
+
+.voice-value h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #2D3333;
+    margin-bottom: 15px;
+}
+
+.voice-value p {
+    margin: 25px auto;
+    width: 65%;
+    text-align-last: center;
+    text-align: justify;
+    color: #010E17;
+}
+
+/* purpose-behind css end */
+
+/* about-book-value css start */
+
+.about-book-value {
+    padding: 50px 150px;
+}
+
+.about-book-value .author-info h2 {
+    line-height: 80px;
+}
+
+.about-book-value .author-info h2 span {
+    font-size: 45px;
+    color: #75341E;
+}
+
+.about-book-value .author-info p {
+    width: 100%;
+}
+
+.about-book-value .author-img img {
+    -webkit-mask-image: unset;
+    width: 100%;
+    animation: moveable 6s infinite linear;
+}
+
+/* about-book-value css end */
+
+/* quote-reflection css start */
+
+.quote-reflection {
+    padding: 50px 0;
+    margin: 50px 0;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+
+.voice-value h4 {
+    text-transform: lowercase;
+    font-size: 23px;
+    font-weight: 500;
+    color: #2D3333;
+    line-height: 40px;
+}
+
+.quote-reflection .voice-value h2 {
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.book-frame-reflection {
+    text-align: center;
+    background-image: url(../images/book-back-frame.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    margin-top: 30px;
+}
+
+.book-frame-reflection img {
+    width: 50%;
+    margin-top: 40px;
+}
+
+.book-frame-reflection h4 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #554129;
+}
+
+.book-frame-reflection p {
+    margin: auto;
+    width: 60%;
+    color: black;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* quote-reflection css end */
+
+/* contact-info css start */
+
+
+.contact-info {
+    padding: 50px 100px;
+    margin: 50px 0;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+}
+
+.review-customer {
+    background: #010E17;
+    padding: 50px 100px 50px 50px;
+}
+
+.review-customer h4 {
+    color: #CDAF83;
+    font-size: 25px;
+}
+
+.review-customer h2 {
+    color: #CDAF83;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.review-box {
+    margin: 50px 0;
+}
+
+.review-box i {
+    color: #fec42d;
+    font-size: 14px;
+}
+
+.review-box p {
+    color: #CDAF83;
+    margin: 25px 0;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.author-bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bio h4 {
+    text-transform: lowercase;
+    font-size: 20px;
+}
+
+.bio h5 {
+    color: #CDAF83;
+    font-size: 15px;
+}
+
+.quote-img i {
+    color: #CDAF83;
+    font-size: 40px;
+}
+
+.contact-form h2 {
+    font-size: 55px;
+    font-weight: 500;
+    color: #2D3333;
+}
+
+.contact-form p {
+    margin: 20px 0;
+    color: #010E17;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-form form .form-group .form-control {
+    margin-bottom: 12px;
+    height: 45px;
+    border: 1px solid black;
+}
+
+.contact-form form .form-group #textarea {
+    height: unset !important;
+}
+
+.contact-form form .form-group button {
+    width: 100%;
+}
+
+
+/* contact-info css end */
+
+/* footer start */
+
+footer {
+    background: #63523D;
+    padding: 50px 100px;
+}
+
+
+.footer-content h3 {
+    font-size: 37px;
+    font-weight: 700;
+    color: #2D3333;
+    -webkit-text-stroke-width: 0.1px;
+    stroke-width: 0.1px;
+    -webkit-text-stroke-color: #CDAF83;
+    stroke: #CDAF83;
+    margin-bottom: 20px;
+}
+
+.footer-content p {
+    color: #CDAF83;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.footer-content ul li {
+    padding: 5px 0;
+}
+
+.footer-content ul {
+    margin-top: 10px;
+}
+
+.footer-content ul li a {
+    color: #CDAF83;
+    font-weight: 500;
+}
+
+.social-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-links li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background: #CDAF83;
+    color: black !important;
+    border-radius: 60%;
+    font-size: 22px;
+}
+
+
+.footer-content form .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.footer-content form .form-group input {
+    height: 50px;
+    border-radius: 0;
+}
+
+.footer-content form .form-group button {
+    box-shadow: unset;
+    height: 50px;
+    white-space: nowrap;
+}
+
+.footer-content form .form-group button.is-submitting {
+    display: inline-flex;
+    flex: 0 0 158px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 158px;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+
+.last-para {
+    background: #010E17;
+    text-align: center;
+    padding: 10px 0;
+    border-top: 2px solid #fff;
+}
+
+.last-para p {
+    color: #CDAF83;
+    font-weight: 400;
+}
+
+/* footer end */
+
+/* animation css start */
+
+.img-custom-anim-top {
+    animation: img-anim-top 1.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1);
+    opacity: 0;
+}
+
+@keyframes img-anim-top {
+    0% {
+        transform: translateY(-5%);
+        clip-path: inset(0 0 100% 0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+}
+
+.img-custom-anim-bottom {
+    animation: img-anim-bottom 1.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1);
+    opacity: 0;
+}
+
+@keyframes img-anim-bottom {
+    0% {
+        transform: translateY(5%);
+        clip-path: inset(100% 0 0 0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+}
+
+.img-custom-anim-left {
+    animation: img-anim-left 1.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s;
+    opacity: 0;
+}
+
+@keyframes img-anim-left {
+    0% {
+        transform: translateX(-5%);
+        clip-path: inset(0 100% 0 0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+}
+
+.img-custom-anim-right {
+    animation: img-anim-right 1.3s forwards cubic-bezier(0.645, 0.045, 0.355, 1) 0.4s;
+    opacity: 0;
+}
+
+@keyframes img-anim-right {
+    0% {
+        transform: translateX(5%);
+        clip-path: inset(0 0 0 100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+}
+
+@keyframes moveable {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateX(-50px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+/* animation css end */
