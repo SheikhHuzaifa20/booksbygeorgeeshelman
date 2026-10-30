@@ -127,13 +127,80 @@
         </div>
     </section>
 
-    <section class="video-banner">
-        <div class="container-fluid p-0">
+    <section class="about-author about-book-value">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="author-img wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="{{ $section[16]->value }}" class="img-fluid" alt="Voices of Value Book Cover">
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="author-info wow fadeInRight" data-wow-delay="0.2s">
+                        <h4>{{ $section[17]->value }}</h4>
+                        <h2>{{ $section[18]->value }}</h2>
+                        {!! $section[19]->value !!}
+                        <div class="btn-grid">
+                            <a href="{{ $section[20]->value }}" target="_blank" class="btn web-btn web-btn-blk">Buy From
+                                Amazon <i class="fa-brands fa-amazon"></i></a>
+                            <a href="{{ $section[21]->value }}" target="_blank" class="btn web-btn web-btn-blk">Buy From
+                                Barnes &amp; Noble</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quote-reflection">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
+                    <div class="voice-value">
+                        {!! $section[22]->value !!}
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="book-frame-reflection wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="{{ $section[23]->value }}" class="img-fluid" alt="Quote 1">
+                        {!! $section[24]->value !!}
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="book-frame-reflection wow fadeInDown" data-wow-delay="0.2s">
+                        <img src="{{ $section[25]->value }}" class="img-fluid" alt="Quote 2">
+                        {!! $section[26]->value !!}
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <div class="book-frame-reflection wow fadeInUp" data-wow-delay="0.2s">
+                        <img src="{{ $section[27]->value }}" class="img-fluid" alt="Quote 3">
+                        {!! $section[28]->value !!}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-banner">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <div class="voice-value my-5" style="">
+                        <h2>Book Trailer</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-6">
                     <div class="video-banner">
                         <video width="100%" height="100%" controls autoplay muted>
                             <source src="{{ $section[14]->value }}" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-6">
+                    <div class="video-banner">
+                        <video width="100%" height="100%" controls autoplay muted>
+                            <source src="{{ $section[29]->value }}" type="video/mp4">
                         </video>
                     </div>
                 </div>
@@ -258,8 +325,10 @@
                             <div class="form-group">
                                 <div class="row">
                                     <div class="col-12">
-                                        <input type="text" name="name" class="form-control" placeholder="Name" required>
-                                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                        <input type="text" name="name" class="form-control" placeholder="Name"
+                                            required>
+                                        <input type="email" name="email" class="form-control" placeholder="Email"
+                                            required>
                                         <input type="text" name="phone" class="form-control" placeholder="Phone">
                                         <textarea name="message" id="textarea" rows="5" placeholder="Message" class="form-control"></textarea>
                                         <button class="btn web-btn web-btn-blk" type="submit">Send</button>
