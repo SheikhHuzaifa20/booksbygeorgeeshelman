@@ -16,7 +16,7 @@
         </div>
     </section>
 
-    <section class="about-author about-book-value background">
+    <section class="about-author about-book-value background" style="border-top: 2px dashed black !important;">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6 col-12">
