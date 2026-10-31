@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <section class="banner inner-banner">
+    <section class="banner inner-banner background">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
@@ -16,7 +16,7 @@
         </div>
     </section>
 
-    <section class="about-author about-book-value">
+    <section class="about-author about-book-value background">
         <div class="container-fluid">
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6 col-12">

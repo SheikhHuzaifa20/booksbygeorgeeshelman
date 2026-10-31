@@ -9,7 +9,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     font-family: "Poppins", sans-serif;
-    background: #CDAF83;
+    background: #D9A441;
 }
 
 @font-face {
@@ -65,7 +65,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 5px 100px;
-    border-bottom: 1px solid #CDAF83;
+    border-bottom: 1px solid #D9A441;
 }
 
 .top-header h3 {
@@ -96,7 +96,7 @@ header {
 }
 
 .navbar-nav li a.active {
-    border-bottom: 2px solid #CDAF83;
+    border-bottom: 2px solid #D9A441;
 }
 
 .navbar-nav {
@@ -211,7 +211,7 @@ header {
 .author-info h2 {
     font-size: 60px;
     font-weight: 500;
-    color: #D9A441;
+    color: #071923;
     margin-top: 10px;
 }
 
@@ -226,6 +226,11 @@ header {
 .web-btn-blk {
     background: #071923;
     color: #D9A441;
+}
+
+.web-btn-blk:hover {
+    background: #D9A441;
+    color: #071923;
 }
 
 /* about-author css end */
@@ -358,12 +363,12 @@ header {
 }
 
 .review-customer h4 {
-    color: #CDAF83;
+    color: #D9A441;
     font-size: 25px;
 }
 
 .review-customer h2 {
-    color: #CDAF83;
+    color: #D9A441;
     margin-top: 20px;
     font-size: 40px;
 }
@@ -378,7 +383,7 @@ header {
 }
 
 .review-box p {
-    color: #CDAF83;
+    color: #D9A441;
     margin: 25px 0;
     font-weight: 500;
     font-size: 15px;
@@ -396,12 +401,12 @@ header {
 }
 
 .bio h5 {
-    color: #CDAF83;
+    color: #D9A441;
     font-size: 15px;
 }
 
 .quote-img i {
-    color: #CDAF83;
+    color: #D9A441;
     font-size: 40px;
 }
 
@@ -438,7 +443,7 @@ header {
 /* footer start */
 
 footer {
-    background: #63523D;
+    background: #071923;
     padding: 50px 100px;
 }
 
@@ -449,13 +454,13 @@ footer {
     color: #2D3333;
     -webkit-text-stroke-width: 0.1px;
     stroke-width: 0.1px;
-    -webkit-text-stroke-color: #CDAF83;
-    stroke: #CDAF83;
+    -webkit-text-stroke-color: #D9A441;
+    stroke: #D9A441;
     margin-bottom: 20px;
 }
 
 .footer-content p {
-    color: #CDAF83;
+    color: #D9A441;
     margin-top: 15px;
     font-size: 18px;
 }
@@ -469,7 +474,7 @@ footer {
 }
 
 .footer-content ul li a {
-    color: #CDAF83;
+    color: #D9A441;
     font-weight: 500;
 }
 
@@ -485,7 +490,7 @@ footer {
     justify-content: center;
     width: 50px;
     height: 50px;
-    background: #CDAF83;
+    background: #D9A441;
     color: black !important;
     border-radius: 60%;
     font-size: 22px;
@@ -527,7 +532,7 @@ footer {
 }
 
 .last-para p {
-    color: #CDAF83;
+    color: #D9A441;
     font-weight: 400;
 }
 

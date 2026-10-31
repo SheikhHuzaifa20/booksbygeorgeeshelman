@@ -4,7 +4,7 @@
 
 @section('content')
 
-    <section class="banner inner-banner">
+    <section class="banner inner-banner background">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
@@ -16,7 +16,7 @@
         </div>
     </section>
 
-    <section class="video-banner">
+    <section class="video-banner background py-5">
         <div class="container p-0">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
@@ -32,7 +32,7 @@
             </div>
         </div>
     </section>
-    <section class="video-banner mt-5 mb-5" style="border-top: 2px dashed black !important;">
+    <section class="video-banner py-5 background" style="border-top: 2px dashed black !important;">
         <div class="container p-0">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
