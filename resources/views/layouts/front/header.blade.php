@@ -37,6 +37,10 @@
                                     href="{{ route('about-book') }}">About the Book</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link {{ request()->routeIs('book-trailer') ? 'active' : '' }}"
+                                    href="{{ route('book-trailer') }}">Book Trailer</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
                                     href="{{ route('contact') }}">Contact Us</a>
                             </li>

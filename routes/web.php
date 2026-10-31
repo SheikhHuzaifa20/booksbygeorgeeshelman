@@ -107,6 +107,7 @@ Route::post('update/uploadPicture','LoggedInController@uploadPicture')->name('up
 Route::get('/',             'HomeController@index')->name('home');
 Route::get('about-author',  'HomeController@aboutAuthor')->name('about-author');
 Route::get('about-book',    'HomeController@aboutBook')->name('about-book');
+Route::get('book-trailer',    'HomeController@trailer')->name('book-trailer');
 Route::get('contact',       'HomeController@contact')->name('contact');
 // =============================================================
 

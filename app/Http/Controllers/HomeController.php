@@ -80,6 +80,14 @@ class HomeController extends Controller
         return view('about-book' , compact('page', 'section'));
     }
 
+    public function trailer()
+    {
+        $page = DB::table('pages')->where('id', 8)->first();
+        $section = DB::table('sections')->where('page_id', 8)->get();
+
+        return view('book-trailer' , compact('page', 'section'));
+    }
+
     public function contact()
     {
         $page = DB::table('pages')->where('id', 4)->first();

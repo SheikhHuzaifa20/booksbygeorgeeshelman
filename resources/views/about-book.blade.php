@@ -41,7 +41,24 @@
         </div>
     </section>
 
-    <section class="about-author about-book-value" style="border-top: 2px dashed black !important;">
+        <style>
+        .book2{
+            background-image: url('assets/images/background-img.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .book2-heading{
+            color: #D9A441 !important;
+        }
+        .book2-content p{
+            color: #fff !important;
+        }
+        .book2-subhead{
+            color: #fff !important;
+        }
+    </style>
+
+    <section class="about-author about-book-value book2" style="border-top: 2px dashed black !important;">
         <div class="container-fluid">
             <div class="row align-items-center">
 
@@ -51,9 +68,9 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">
-                    <div class="author-info wow fadeInRight" data-wow-delay="0.2s">
-                        <h4>{{ $section[2]->value }}</h4>
-                        <h2>{{ $section[3]->value }}
+                    <div class="author-info wow fadeInRight book2-content" data-wow-delay="0.2s">
+                        <h4 class="book2-subhead">{{ $section[2]->value }}</h4>
+                        <h2 class="book2-heading">{{ $section[3]->value }}
                             {{-- <span class="d-block">{{$page->text2}}</span> --}}
                         </h2>
                         {!! $section[4]->value !!}

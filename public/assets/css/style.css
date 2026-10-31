@@ -1,3 +1,9 @@
+.background {
+    background-image: url('../images/background_img1.png') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -36,12 +42,12 @@ p {
 }
 
 .web-btn {
-    background: #CDAF83;
+    background: #D9A441;
     padding: 6px 20px;
     border-radius: 0;
     font-family: 'Amontesa';
     text-transform: lowercase;
-    color: #010E17;
+    color: #071923;
     font-size: 20px;
     font-weight: 500;
     box-shadow: 5px 5px 0px 0px rgba(225.00000000000003, 217.00000000000003, 198.00000000000003, 0.25);
@@ -50,7 +56,7 @@ p {
 /* header css start */
 
 header {
-    background-color: #010E17;
+    background-color: #071923;
     padding: 5px 0px;
 }
 
@@ -63,12 +69,12 @@ header {
 }
 
 .top-header h3 {
-    color: #CDAF83;
+    color: #D9A441;
     font-size: 35px;
 }
 
 .top-header a {
-    color: #CDAF83;
+    color: #D9A441;
     font-size: 16px;
     letter-spacing: -1px;
 }
@@ -84,7 +90,7 @@ header {
 
 .navbar-nav li a {
     padding: 8px 20px;
-    color: #CDAF83 !important;
+    color: #D9A441 !important;
     font-size: 18px;
     font-weight: 500;
 }
@@ -107,25 +113,25 @@ header {
 
 .banner-back {
     margin: 100px;
-    background: #010E17;
+    background: #071923;
     padding: 0px 40px;
 }
 
 .banner-content h4 {
     font-size: 25px;
     font-weight: 500;
-    color: #CDAF83;
+    color: #D9A441;
 }
 
 .banner-content h1 {
     margin: 20px 0;
-    color: #CDAF83;
+    color: #D9A441;
     font-size: 50px;
     line-height: 65px;
 }
 
 .banner-content p {
-    color: #CDAF83;
+    color: #D9A441;
     font-size: 15px;
     text-align: justify;
 }
@@ -142,7 +148,7 @@ header {
     position: relative;
     z-index: 0;
     text-align: center;
-    background: #CDAF83;
+    background: #D9A441;
     width: 68%;
     transform: rotate(-10deg);
     margin-left: auto;
@@ -199,13 +205,13 @@ header {
     font-size: 23px;
     font-weight: 500;
     line-height: 40px;
-    color: #2D3333;
+    color: #071923;
 }
 
 .author-info h2 {
     font-size: 60px;
     font-weight: 500;
-    color: #2D3333;
+    color: #D9A441;
     margin-top: 10px;
 }
 
@@ -218,8 +224,8 @@ header {
 }
 
 .web-btn-blk {
-    background: #000000;
-    color: #CDAF83;
+    background: #071923;
+    color: #D9A441;
 }
 
 /* about-author css end */
@@ -228,7 +234,7 @@ header {
 
 .purpose-behind {
     padding: 50px 0;
-    margin: 30px 0;
+    /* margin: 30px 0; */
     border-top: 2px dashed black;
     border-bottom: 2px dashed black;
 }
@@ -240,7 +246,7 @@ header {
 .voice-value h2 {
     font-size: 40px;
     font-weight: 500;
-    color: #2D3333;
+    color: #071923;
     margin-bottom: 15px;
 }
 
@@ -257,11 +263,12 @@ header {
 /* about-book-value css start */
 
 .about-book-value {
-    padding: 50px 150px;
+    padding: 70px 150px;
 }
 
 .about-book-value .author-info h2 {
     line-height: 80px;
+    color: #071923;
 }
 
 .about-book-value .author-info h2 span {
@@ -285,7 +292,7 @@ header {
 
 .quote-reflection {
     padding: 50px 0;
-    margin: 50px 0;
+    /* margin: 50px 0; */
     border-top: 2px dashed black;
     border-bottom: 2px dashed black;
 }
@@ -340,13 +347,13 @@ header {
 
 .contact-info {
     padding: 50px 100px;
-    margin: 50px 0;
+    /* margin: 50px 0; */
     border-top: 2px dashed black;
     border-bottom: 2px dashed black;
 }
 
 .review-customer {
-    background: #010E17;
+    background: #071923;
     padding: 50px 100px 50px 50px;
 }
 
@@ -406,7 +413,7 @@ header {
 
 .contact-form p {
     margin: 20px 0;
-    color: #010E17;
+    color: #071923;
     font-size: 18px;
     font-weight: 400;
 }
@@ -513,7 +520,7 @@ footer {
 }
 
 .last-para {
-    background: #010E17;
+    background: #071923;
     text-align: center;
     padding: 10px 0;
     border-top: 2px solid #fff;
