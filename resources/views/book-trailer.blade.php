@@ -16,7 +16,7 @@
         </div>
     </section>
 
-    <section class="video-banner background py-5">
+    <section class="video-banner background py-5" style="border-top: 2px dashed black !important;">
         <div class="container p-0">
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
