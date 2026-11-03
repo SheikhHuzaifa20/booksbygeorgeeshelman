@@ -38,7 +38,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link {{ request()->routeIs('book-trailer') ? 'active' : '' }}"
-                                    href="{{ route('book-trailer') }}">Book Trailer</a>
+                                    href="{{ route('book-trailer') }}">Video Trailers</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link {{ request()->routeIs('contact') ? 'active' : '' }}"
