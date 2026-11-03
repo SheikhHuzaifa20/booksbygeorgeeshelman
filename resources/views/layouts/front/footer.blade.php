@@ -34,6 +34,9 @@
                         <li>
                             <a href="{{ route('contact') }}"><i class="fa-solid fa-circle-arrow-right"></i> Contact Us</a>
                         </li>
+                        <li>
+                            <a href="{{ route('book-trailer') }}"><i class="fa-solid fa-circle-arrow-right"></i>Video Trailers</a>
+                        </li>
                     </ul>
                 </div>
             </div>

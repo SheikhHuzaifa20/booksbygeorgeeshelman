@@ -205,7 +205,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-12">
                     <div class="voice-value my-5" style="">
-                        <h2>Book Trailer</h2>
+                        <h2>Video Trailers</h2>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-6">
