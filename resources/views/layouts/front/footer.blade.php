@@ -32,10 +32,10 @@
                             <a href="{{ route('about-book') }}"><i class="fa-solid fa-circle-arrow-right"></i> About the Book</a>
                         </li>
                         <li>
-                            <a href="{{ route('contact') }}"><i class="fa-solid fa-circle-arrow-right"></i> Contact Us</a>
+                            <a href="{{ route('book-trailer') }}"><i class="fa-solid fa-circle-arrow-right"></i> Video Trailers</a>
                         </li>
                         <li>
-                            <a href="{{ route('book-trailer') }}"><i class="fa-solid fa-circle-arrow-right"></i>Video Trailers</a>
+                            <a href="{{ route('contact') }}"><i class="fa-solid fa-circle-arrow-right"></i> Contact Us</a>
                         </li>
                     </ul>
                 </div>
